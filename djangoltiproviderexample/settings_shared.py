@@ -90,6 +90,11 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.messages.middleware.MessageMiddleware',
 ]
 
+AUTHENTICATION_BACKENDS = [
+  'django.contrib.auth.backends.ModelBackend',
+  'lti_provider.auth.LTIBackend',
+]
+
 ROOT_URLCONF = project + '.urls'
 
 INSTALLED_APPS = [
@@ -102,7 +107,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.admin',
     'debug_toolbar',
-    'django_jenkins'
+    'django_jenkins',
+    'lti_provider'
 ]
 
 INTERNAL_IPS = ['127.0.0.1']
@@ -153,3 +159,22 @@ THUMBNAIL_SUBDIR = "thumbs"
 LOGIN_REDIRECT_URL = "/"
 
 ACCOUNT_ACTIVATION_DAYS = 7
+
+LTI_TOOL_CONFIGURATION = {
+    'title': 'Sample LTI Tool',
+    'description': 'This tool includes launch, navigation and assignments',
+    'launch_url': 'lti/',
+    'embed_url': '',  # @todo - add an editor embed example
+    'embed_icon_url': '',
+    'embed_tool_id': '',
+    'landing_url': '/',
+    'navigation': True,
+    'new_tab': True,
+    'course_aware': False,
+    'frame_width': 1024,
+    'frame_height': 1024,
+    'assignments': {
+        '1': '/assignment/1/',
+        '2': '/assignment/2/',
+    }
+}

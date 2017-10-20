@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center well">
+    <h1>Assignment Success Page</h1>
+    <h3>Logged In</h3>
+    <p>{{request.user.username}}</p>
+    <p>{{request.user.first_name}} {{request.user.last_name}}</p>
+
+    <hr />
+
+    <h3>Your score has been submitted.</h3>
+</div>
+{% endblock %}

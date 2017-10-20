@@ -1,18 +1,20 @@
+from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
-from django.conf import settings
-from django.views.static import serve
-from djangoltiproviderexample.main import views
-import os.path
+from django.views.generic.base import TemplateView
 
-site_media_root = os.path.join(os.path.dirname(__file__), "../media")
+from djangoltiproviderexample.main import views
 
 
 urlpatterns = [
     url(r'^$', views.IndexView.as_view()),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^uploads/(?P<path>.*)$',
-        serve, {'document_root': settings.MEDIA_ROOT}),
+    url(r'^lti/', include('lti_provider.urls')),
+    url(r'^assignment/1/', views.LTIAssignment1View.as_view()),
+    url(r'^assignment/2/', views.LTIAssignment2View.as_view()),
+    url(r'^assignment/success', TemplateView.as_view(
+        template_name='main/assignment_success.html'),
+        name='assignment-success')
 ]
 
 if settings.DEBUG:

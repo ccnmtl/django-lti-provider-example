@@ -12,7 +12,7 @@ Example Django application using the django-lti-provider library
 
    For Postgres:
      A. Create the database `createdb django-lti-provider-example`
-    
+
    For MySQL:
     @todo
 
@@ -20,8 +20,22 @@ Example Django application using the django-lti-provider library
 
 3. Customize settings
 
-    Create a 1local_settings.py1 file in the 1djangoltiproviderexample1 subdirectory.
-    Override the variables from `settings_shared.py` that you need to customize for your local installation. At a minimum, you will need to customize your `DATABASES` dictionary.
+    Create a local_settings.py1 file in the 1djangoltiproviderexample1 subdirectory.
+    Override the variables from `settings_shared.py` that you need to customize for your local installation.
+
+    * You will need to customize your `DATABASES` dictionary.
+
+    The ``PYLTI_CONFIG`` variable in your ``local_settings.py`` configures the 
+    application consumers and secrets. Generate two long random numbers for
+    these values.
+
+    PYLTI_CONFIG = {
+        'consumers': {
+            '<random number string>': {
+                'secret': '<random number string>'
+            }
+        }
+    }
 
 4. Build the virtual environment
 
@@ -29,8 +43,11 @@ Example Django application using the django-lti-provider library
 
 5. Run
 
-    `make runserver `
+    `make runserver`
 
 ## LMS INSTALLATION
+
+Canvas
+* https://community.canvaslms.com/docs/DOC-13117-415274482
 
 
