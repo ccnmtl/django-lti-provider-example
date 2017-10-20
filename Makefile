@@ -1,5 +1,5 @@
 APP=djangoltiproviderexample
-JS_FILES=media/js/src media/js/tests
+JS_FILES=
 
 all: jenkins
 
