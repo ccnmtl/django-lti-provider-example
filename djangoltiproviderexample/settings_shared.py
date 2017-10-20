@@ -22,39 +22,10 @@ INSTALLED_APPS += [  # noqa
     'bootstrap3',
     'infranil',
     'django_extensions',
-    'registration',
-    'pagetree',
-    'pageblocks',
-    'quizblock',
-
-    'wagtail.wagtailforms',
-    'wagtail.wagtailredirects',
-    'wagtail.wagtailembeds',
-    'wagtail.wagtailsites',
-    'wagtail.wagtailusers',
-    'wagtail.wagtailsnippets',
-    'wagtail.wagtaildocs',
-    'wagtail.wagtailimages',
-    'wagtail.wagtailsearch',
-    'wagtail.wagtailadmin',
-    'wagtail.wagtailcore',
-    'modelcluster',
-    'taggit',
-
     'djangoltiproviderexample.main',
-]
-
-PAGEBLOCKS = [
-    'pageblocks.TextBlock',
-    'pageblocks.HTMLBlock',
-    'pageblocks.PullQuoteBlock',
-    'pageblocks.SimpleImageBlock',
-    'quizblock.Quiz',
 ]
 
 THUMBNAIL_SUBDIR = "thumbs"
 LOGIN_REDIRECT_URL = "/"
 
 ACCOUNT_ACTIVATION_DAYS = 7
-
-WAGTAIL_SITE_NAME = 'djangoltiproviderexample'
