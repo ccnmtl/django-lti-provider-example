@@ -1,6 +1,6 @@
 # django-lti-provider-example
 
-Example Django application using the django-lti-provider library
+Example Django application using the [django-lti-provider](https://github.com/ccnmtl/django-lti-provider) library.
 
 ## Configuration
 
