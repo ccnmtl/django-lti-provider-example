@@ -20,7 +20,6 @@ Example Django application using the [django-lti-provider](https://github.com/cc
 
 3. Customize settings
 
-    local_settings.py
     * Create a local_settings.py file in the `djangoltiproviderexample` subdirectory OR
     * Copy `djangoltiproviderexample/local_settings.py.example` to `djangoltiproviderexample/local_settings.py`
     * Then, override the variables from `settings_shared.py` that you need to customize for your local installation.
