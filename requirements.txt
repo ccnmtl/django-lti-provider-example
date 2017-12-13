@@ -39,7 +39,7 @@ python-dateutil==2.6.1
 django-indexer==0.3.0
 django-templatetag-sugar==1.0
 django-paging==0.2.5
-django-annoying==0.10.3
+django-annoying==0.10.4
 django-appconf==1.0.2
 django-bootstrap3==9.1.0
 django-debug-toolbar==1.9.1
