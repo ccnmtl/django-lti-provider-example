@@ -26,7 +26,7 @@ coverage==4.4.2
 pyasn1==0.4.2
 cryptography==2.1.4  # for PyOpenSSL
 pyOpenSSL==17.5.0
-ndg-httpsclient==0.4.3
+ndg-httpsclient==0.4.4
 logilab-common==1.4.1
 logilab-astng==0.24.3
 astroid==1.6.1
