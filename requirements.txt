@@ -30,7 +30,7 @@ ndg-httpsclient==0.4.4
 logilab-common==1.4.1
 logilab-astng==0.24.3
 astroid==1.6.2
-pylint==1.8.3
+pylint==1.8.4
 six==1.11.0
 ldap3==2.4.1
 sqlparse==0.2.4
