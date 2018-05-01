@@ -41,7 +41,7 @@ django-templatetag-sugar==1.0
 django-paging==0.2.5
 django-annoying==0.10.4
 django-appconf==1.0.2
-django-bootstrap3==9.1.0
+django-bootstrap3==10.0.0
 django-debug-toolbar==1.9.1
 django-jenkins==0.110.0
 typing==3.6.4  # for django-extensions
