@@ -34,7 +34,7 @@ pylint==1.8.4
 six==1.11.0
 ldap3==2.5
 sqlparse==0.2.4
-python-dateutil==2.7.2
+python-dateutil==2.7.3
 
 django-indexer==0.3.0
 django-templatetag-sugar==1.0
