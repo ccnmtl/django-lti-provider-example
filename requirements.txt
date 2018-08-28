@@ -6,7 +6,7 @@ Markdown==2.6.11
 psycopg2==2.7.5
 Pillow==5.2.0
 versiontools==1.9.1
-statsd==3.2.2
+statsd==3.3.0
 pep8==1.7.1
 pyflakes==2.0.0
 mccabe==0.6.1
@@ -18,7 +18,7 @@ tornado==5.1
 beautifulsoup4==4.6.3
 cssselect==1.0.3
 lxml==4.2.4
-fuzzywuzzy==0.16.0
+fuzzywuzzy==0.17.0
 sure==1.4.11
 ipdb==0.11
 rdflib==4.2.2
@@ -45,9 +45,9 @@ django-bootstrap3==10.0.1
 django-debug-toolbar==1.9.1
 django-jenkins==0.110.0
 typing==3.6.6  # for django-extensions
-django-extensions==2.1.0
+django-extensions==2.1.2
 
-nameparser==0.5.7
+nameparser==0.5.8
 httplib2==0.10.3
 oauth==1.0.1
 oauth2==1.9.0.post1
