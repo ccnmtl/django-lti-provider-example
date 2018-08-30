@@ -8,7 +8,8 @@
     <meta name="description" content="djangoltiproviderexample">
     <meta name="author" content="Columbia University CTL">
 
-    <link href="{% bootstrap_css_url %}" rel="stylesheet">
+    {% bootstrap_css %}
+
     <link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico" type="image/x-icon" />
     {% block css %}{% endblock %}
     <script src="{{STATIC_URL}}js/lib/jquery-3.2.1.min.js"></script>
@@ -24,7 +25,7 @@
     {% block content %}
     {% endblock %}
 
-    <script src="{% bootstrap_javascript_url %}"></script>
+    {% bootstrap_javascript %}
 
     {% block js %}{% endblock %}
 </body>
