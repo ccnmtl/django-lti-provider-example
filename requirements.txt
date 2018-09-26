@@ -2,7 +2,7 @@ Django==1.11.15 # pyup: <2.0
 pytz==2018.5
 httplib2==0.10.3
 feedparser==5.2.1
-Markdown==2.6.11
+Markdown==3.0.1
 psycopg2==2.7.5
 Pillow==5.2.0
 versiontools==1.9.1
