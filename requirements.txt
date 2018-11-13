@@ -22,7 +22,7 @@ fuzzywuzzy==0.17.0
 sure==1.4.11
 ipdb==0.11
 rdflib==4.2.2
-coverage==4.5.1
+coverage==4.5.2
 pyasn1==0.4.4
 cryptography==2.4.1  # for PyOpenSSL
 pyOpenSSL==18.0.0
