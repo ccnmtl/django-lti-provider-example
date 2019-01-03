@@ -17,7 +17,7 @@ flake8==3.6.0
 tornado==5.1.1
 beautifulsoup4==4.6.3
 cssselect==1.0.3
-lxml==4.2.5
+lxml==4.2.6
 fuzzywuzzy==0.17.0
 sure==1.4.11
 ipdb==0.11
