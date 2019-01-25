@@ -11,7 +11,7 @@ pep8==1.7.1
 pyflakes==2.0.0
 mccabe==0.6.1
 enum34==1.1.6
-configparser==3.5.0
+configparser==3.7.0
 pycodestyle==2.4.0
 flake8==3.6.0
 tornado==5.1.1
