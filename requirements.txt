@@ -40,7 +40,7 @@ django-indexer==0.3.0
 django-templatetag-sugar==1.0
 django-paging==0.2.5
 django-annoying==0.10.4
-django-appconf==1.0.2
+django-appconf==1.0.3
 django-bootstrap3==11.0.0
 django-debug-toolbar==1.11
 django-jenkins==0.110.0
