@@ -1,6 +1,6 @@
 Django==1.11.20 # pyup: <2.0
 pytz==2019.1
-httplib2==0.12.1
+httplib2==0.12.3
 feedparser==5.2.1
 Markdown==2.6.11 # pyup: < 3
 psycopg2==2.8.2
@@ -47,7 +47,7 @@ typing==3.6.6  # for django-extensions
 django-extensions==2.1.6
 
 nameparser==1.0.3
-httplib2==0.12.1
+httplib2==0.12.3
 oauth==1.0.1
 oauth2==1.9.0.post1
 oauthlib==3.0.1
