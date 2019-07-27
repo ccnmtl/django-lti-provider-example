@@ -17,7 +17,7 @@ flake8==3.7.7
 tornado==5.1.1 # pyup: <6.0
 beautifulsoup4==4.7.1
 cssselect==1.0.3
-lxml==4.3.4
+lxml==4.3.5
 fuzzywuzzy==0.17.0
 sure==1.4.11
 ipdb==0.12.1
