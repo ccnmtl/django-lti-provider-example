@@ -22,7 +22,7 @@ fuzzywuzzy==0.17.0
 sure==1.4.11
 ipdb==0.12.2
 coverage==4.5.4
-pyasn1==0.4.6
+pyasn1==0.4.7
 cryptography==2.7  # for PyOpenSSL
 pyOpenSSL==19.0.0
 ndg-httpsclient==0.5.1
