@@ -3,7 +3,7 @@ pytz==2019.2
 httplib2==0.14.0
 feedparser==5.2.1
 Markdown==2.6.11 # pyup: < 3
-psycopg2==2.8.3
+psycopg2==2.8.4
 Pillow==6.2.1
 versiontools==1.9.1
 statsd==3.3.0
