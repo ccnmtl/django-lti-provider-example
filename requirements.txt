@@ -13,7 +13,7 @@ mccabe==0.6.1
 enum34==1.1.6
 configparser==4.0.2
 pycodestyle==2.5.0
-flake8==3.7.7
+flake8==3.7.9
 tornado==5.1.1 # pyup: <6.0
 beautifulsoup4==4.8.1
 cssselect==1.1.0
