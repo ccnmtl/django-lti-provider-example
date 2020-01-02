@@ -15,7 +15,7 @@ configparser==4.0.2
 pycodestyle==2.5.0
 flake8==3.7.9
 tornado==5.1.1 # pyup: <6.0
-beautifulsoup4==4.8.1
+beautifulsoup4==4.8.2
 cssselect==1.1.0
 lxml==4.4.2
 fuzzywuzzy==0.17.0
