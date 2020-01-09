@@ -1,4 +1,4 @@
-Django==1.11.26 # pyup: <2.0
+Django==1.11.27 # pyup: <2.0
 pytz==2019.2
 httplib2==0.15.0
 feedparser==5.2.1
@@ -40,14 +40,14 @@ django-templatetag-sugar==1.0
 django-paging==0.2.5
 django-annoying==0.10.6
 django-appconf==1.0.3
-django-bootstrap3==12.0.3
+django-bootstrap3==11.1.0 # pyup: < 12.0.0
 django-debug-toolbar==1.11 # pyup: <2.0
 django-jenkins==0.110.0
 # for django-extensions
 typing==3.7.4.1; python_version < '3.5'
 django-extensions==2.2.5
 
-nameparser==1.0.4
+nameparser==1.0.5
 httplib2==0.15.0
 oauth==1.0.1
 oauth2==1.9.0.post1
