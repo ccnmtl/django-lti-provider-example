@@ -1,6 +1,6 @@
 Django==1.11.27 # pyup: <2.0
 pytz==2019.2
-httplib2==0.14.0
+httplib2==0.15.0
 feedparser==5.2.1
 Markdown==2.6.11 # pyup: < 3
 psycopg2==2.8.4
@@ -15,7 +15,7 @@ configparser==4.0.2
 pycodestyle==2.5.0
 flake8==3.7.9
 tornado==5.1.1 # pyup: <6.0
-beautifulsoup4==4.8.1
+beautifulsoup4==4.8.2
 cssselect==1.1.0
 lxml==4.4.2
 fuzzywuzzy==0.17.0
@@ -26,7 +26,7 @@ pyasn1==0.4.8
 cryptography==2.8  # for PyOpenSSL
 pyOpenSSL==19.1.0
 ndg-httpsclient==0.5.1
-logilab-common==1.5.2
+logilab-common==1.4.4 # pyup: <1.5
 logilab-astng==0.24.3
 astroid==1.6.6 # pyup: <2.0.0
 pylint==1.9.5 # pyup: <2.0.0
@@ -48,7 +48,7 @@ typing==3.7.4.1; python_version < '3.5'
 django-extensions==2.2.5
 
 nameparser==1.0.4
-httplib2==0.14.0
+httplib2==0.15.0
 oauth==1.0.1
 oauth2==1.9.0.post1
 oauthlib==3.1.0
