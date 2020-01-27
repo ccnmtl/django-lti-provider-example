@@ -20,3 +20,14 @@ if 'test' not in sys.argv and 'jenkins' not in sys.argv and 'check' not in sys.a
             'PASSWORD': '<password>',
         }
     }
+
+    # MySQL Example
+    #DATABASES = {
+    #    'default': {
+    #        'ENGINE': 'django.db.backends.mysql',
+    #        'NAME': 'djangoltiproviderexample',
+    #        'HOST': 'localhost',
+    #        'USER': '<username>',
+    #        'PASSWORD': '<password>',
+    #    }
+    #}
