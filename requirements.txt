@@ -29,7 +29,7 @@ astroid==2.3.3
 pylint==2.4.4
 six==1.14.0
 ldap3==2.6.1
-sqlparse==0.3.0
+sqlparse==0.3.1
 python-dateutil==2.8.1
 
 django-indexer==0.3.0
