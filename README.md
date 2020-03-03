@@ -55,5 +55,4 @@ Example Django application using the [django-lti-provider](https://github.com/cc
 
 Canvas
 * https://community.canvaslms.com/docs/DOC-13117-415274482
-
-
+  * Note: the URL to enter in these steps will be `https://<app hostname>/lti/config.xml`
