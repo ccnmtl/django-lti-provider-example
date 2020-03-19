@@ -20,7 +20,7 @@ lxml==4.5.0
 fuzzywuzzy==0.18.0
 sure==1.4.11
 ipdb==0.13.2
-coverage==4.5.4
+coverage==5.0.4
 pyasn1==0.4.8
 cryptography==2.8  # for PyOpenSSL
 logilab-common==1.5.2
