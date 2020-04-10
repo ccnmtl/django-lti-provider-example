@@ -8,7 +8,7 @@ Pillow==6.2.2 # pyup: <7.0.0
 versiontools==1.9.1
 statsd==3.3.0
 pep8==1.7.1
-pyflakes==2.1.1
+pyflakes==2.2.0
 mccabe==0.6.1
 configparser==5.0.0
 pycodestyle==2.5.0
