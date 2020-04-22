@@ -10,7 +10,7 @@ statsd==3.3.0
 pep8==1.7.1
 pyflakes==2.2.0
 mccabe==0.6.1
-configparser==5.0.0
+configparser==4.0.2 # pyup: < 5.0.0
 pycodestyle==2.5.0
 flake8==3.7.9
 tornado==6.0.4
@@ -22,7 +22,7 @@ sure==1.4.11
 ipdb==0.13.2
 coverage==5.1
 pyasn1==0.4.8
-cryptography==2.9  # for PyOpenSSL
+cryptography==2.9.1  # for PyOpenSSL
 logilab-common==1.5.2
 logilab-astng==0.24.3
 astroid==2.3.3
