@@ -57,7 +57,7 @@ USE_I18N = False
 MEDIA_ROOT = "/var/www/" + project + "/uploads/"
 MEDIA_URL = '/uploads/'
 STATIC_URL = '/media/'
-SECRET_KEY = 'you must override this'
+SECRET_KEY = 'you must override this'  # nosec
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -81,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-MIDDLEWARE_CLASSES = [
+MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -127,7 +127,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
 SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
 SESSION_COOKIE_HTTPONLY = True
 
-STATIC_ROOT = "/tmp/" + project + "/static"
+STATIC_ROOT = "/tmp/" + project + "/static"  # nosec
 STATICFILES_DIRS = ["media/"]
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
