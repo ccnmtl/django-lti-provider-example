@@ -1,4 +1,4 @@
-Django>=1.11,<2
+Django>=2.2.13,<3
 pytz==2020.1
 httplib2==0.18.1
 feedparser==6.0.1
@@ -38,7 +38,7 @@ django-paging==0.2.5
 django-annoying==0.10.6
 django-appconf==1.0.4
 django-bootstrap3==14.1.0
-django-debug-toolbar==2.2
+django-debug-toolbar==3.1.1
 django-jenkins==0.110.0
 # for django-extensions
 django-extensions==3.0.9
@@ -58,3 +58,5 @@ pyyaml==5.3.1
 
 pbr>=0.11
 bandit==1.6.2
+importlib_metadata==2.0.0
+zipp==3.2.0
