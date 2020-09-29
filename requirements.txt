@@ -1,4 +1,4 @@
-Django>=1.11,<2
+Django>=2.2.13,<3
 pytz==2020.1
 httplib2==0.18.1
 feedparser==6.0.1
@@ -58,3 +58,5 @@ pyyaml==5.3.1
 
 pbr>=0.11
 bandit==1.6.2
+importlib_metadata==2.0.0
+zipp==3.2.0

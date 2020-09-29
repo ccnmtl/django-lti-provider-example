@@ -8,7 +8,7 @@ from djangoltiproviderexample.main import views
 
 urlpatterns = [
     url(r'^$', views.IndexView.as_view()),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', admin.site.urls),
     url(r'^lti/', include('lti_provider.urls')),
     url(r'^assignment/1/', views.LTIAssignment1View.as_view()),
     url(r'^assignment/2/', views.LTIAssignment2View.as_view()),
