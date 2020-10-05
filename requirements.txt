@@ -19,7 +19,7 @@ cssselect==1.1.0
 lxml==4.5.2
 fuzzywuzzy==0.18.0
 sure==1.4.11
-ipdb==0.13.3
+ipdb==0.13.4
 coverage==5.3
 pyasn1==0.4.8
 cryptography==3.1.1  # for PyOpenSSL
