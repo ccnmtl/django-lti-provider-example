@@ -22,7 +22,7 @@ sure==1.4.11
 ipdb==0.13.4
 coverage==5.4
 pyasn1==0.4.8
-cryptography==3.3.1  # for PyOpenSSL
+cryptography==3.4.2  # for PyOpenSSL
 logilab-common==1.8.1
 logilab-astng==0.24.3
 astroid==2.4.2
