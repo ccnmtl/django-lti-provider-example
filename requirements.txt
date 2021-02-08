@@ -1,6 +1,6 @@
 Django>=2.2.13,<3
 pytz==2021.1
-httplib2==0.18.1
+httplib2==0.19.0
 feedparser==6.0.2
 Markdown==3.3.3
 psycopg2==2.8.6
@@ -44,7 +44,7 @@ django-jenkins==0.110.0
 django-extensions==3.1.0
 
 nameparser==1.0.6
-httplib2==0.18.1
+httplib2==0.19.0
 oauth==1.0.1
 oauth2==1.9.0.post1
 oauthlib==3.1.0
