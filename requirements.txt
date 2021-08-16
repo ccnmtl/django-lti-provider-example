@@ -38,7 +38,7 @@ django-paging==0.2.5
 django-annoying==0.10.6
 django-appconf==1.0.4
 django-bootstrap3==15.0.0
-django-debug-toolbar==3.2.1
+django-debug-toolbar==3.2.2
 django-jenkins==0.110.0
 # for django-extensions
 django-extensions==3.1.3
