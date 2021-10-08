@@ -8,7 +8,7 @@ Pillow==8.3.2
 versiontools==1.9.1
 statsd==3.3.0
 pep8==1.7.1
-pyflakes==2.3.1
+pyflakes==2.4.0
 mccabe==0.6.1
 configparser==5.0.2
 flake8==3.9.2
