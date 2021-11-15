@@ -57,7 +57,7 @@ stevedore==3.5.0
 pyyaml==6.0
 
 pbr>=0.11
-bandit==1.7.0
+bandit==1.7.1
 importlib_metadata==4.8.2
 typing_extensions==3.10.0.2
 zipp==3.6.0
