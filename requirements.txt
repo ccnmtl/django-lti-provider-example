@@ -61,3 +61,4 @@ bandit==1.7.1
 importlib_metadata==4.8.2
 typing_extensions==4.0.0
 zipp==3.6.0
+pyparsing==3.0.6
