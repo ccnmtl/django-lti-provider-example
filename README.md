@@ -1,6 +1,6 @@
 # django-lti-provider-example
 
-[![Build Status](https://travis-ci.org/ccnmtl/django-lti-provider-example.svg?branch=master)](https://travis-ci.org/ccnmtl/django-lti-provider-example)
+[![Actions Status](https://github.com/ccnmtl/django-lti-provider-example/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/django-lti-provider-example/actions)
 
 Example Django application using the [django-lti-provider](https://github.com/ccnmtl/django-lti-provider) library.
 
