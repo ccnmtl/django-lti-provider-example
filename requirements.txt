@@ -15,7 +15,7 @@ pycodestyle==2.8.0
 tornado==6.1
 beautifulsoup4==4.10.0
 cssselect==1.1.0
-lxml==4.7.1
+lxml==4.8.0
 fuzzywuzzy==0.18.0
 sure==2.0.0
 ipdb==0.13.9
@@ -24,7 +24,7 @@ pyasn1==0.4.8
 cryptography==36.0.1  # for PyOpenSSL
 logilab-common==1.8.3
 logilab-astng==0.24.3
-astroid==2.9.3
+astroid==2.10.0
 pylint==2.12.2
 six==1.16.0
 sqlparse==0.4.2
@@ -42,7 +42,7 @@ django-jenkins==0.110.0
 # for django-extensions
 django-extensions==3.1.5
 
-nameparser==1.1.0
+nameparser==1.1.1
 httplib2==0.20.4
 oauth==1.0.1
 oauth2==1.9.0.post1
@@ -58,7 +58,7 @@ pyyaml==6.0
 pbr>=0.11
 bandit==1.7.1
 importlib-metadata<4.12 # for flake8
-typing_extensions==4.0.1
+typing_extensions==4.1.1
 zipp==3.6.0
 
 pyparsing==3.0.7
