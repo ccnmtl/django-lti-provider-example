@@ -61,4 +61,4 @@ importlib-metadata<4.12 # for flake8
 typing_extensions==4.1.1
 zipp==3.6.0
 
-pyparsing==3.0.7
+pyparsing==3.0.8
