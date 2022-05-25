@@ -58,7 +58,7 @@ pyyaml==6.0
 pbr>=0.11
 bandit==1.7.1
 importlib-metadata<4.12 # for flake8
-typing_extensions==4.1.1
+typing_extensions==4.2.0
 zipp==3.6.0
 
 pyparsing==3.0.9
