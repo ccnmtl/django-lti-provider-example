@@ -40,7 +40,7 @@ django-bootstrap3==21.1
 django-debug-toolbar==3.2.4
 django-jenkins==0.110.0
 # for django-extensions
-django-extensions==3.1.5
+django-extensions==3.2.0
 
 nameparser==1.1.1
 httplib2==0.20.4
