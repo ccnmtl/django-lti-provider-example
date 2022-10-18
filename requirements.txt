@@ -45,7 +45,7 @@ nameparser==1.1.1
 httplib2==0.20.4
 oauth==1.0.1
 oauth2==1.9.0.post1
-oauthlib==3.2.1
+oauthlib==3.2.2
 pylti==0.7.0
 
 django-lti-provider==1.0.0
