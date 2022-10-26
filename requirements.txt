@@ -3,7 +3,7 @@ pytz==2022.5
 httplib2==0.20.4
 feedparser==6.0.10
 Markdown==3.4.1
-psycopg2==2.9.4
+psycopg2==2.9.5
 versiontools==1.9.1
 statsd==3.3.0
 pep8==1.7.1
