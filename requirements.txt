@@ -41,7 +41,7 @@ django-jenkins==0.110.0
 # for django-extensions
 django-extensions==3.2.1
 
-nameparser==1.1.1
+nameparser==1.1.2
 httplib2==0.21.0
 oauth==1.0.1
 oauth2==1.9.0.post1
