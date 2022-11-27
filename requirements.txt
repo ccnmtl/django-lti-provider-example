@@ -10,7 +10,7 @@ pep8==1.7.1
 pyflakes==3.0.1
 mccabe==0.7.0
 configparser==5.3.0
-flake8==5.0.4
+flake8==6.0.0
 pycodestyle==2.9.1
 tornado==6.2
 beautifulsoup4==4.11.1
