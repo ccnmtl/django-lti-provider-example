@@ -17,7 +17,7 @@ beautifulsoup4==4.11.2
 cssselect==1.2.0
 lxml==4.9.2
 fuzzywuzzy==0.18.0
-sure==2.0.0
+sure==2.0.1
 ipdb==0.13.11
 coverage==7.1.0
 pyasn1==0.4.8
