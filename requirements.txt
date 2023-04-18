@@ -12,7 +12,7 @@ mccabe==0.7.0
 configparser==5.3.0
 flake8==6.0.0
 pycodestyle==2.10.0
-tornado==6.2
+tornado==6.3
 beautifulsoup4==4.12.2
 cssselect==1.2.0
 lxml==4.9.2
