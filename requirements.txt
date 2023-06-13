@@ -56,7 +56,7 @@ stevedore==5.1.0
 pyyaml==6.0
 
 pbr>=0.11
-rich==13.4.1 # bandit
+rich==13.4.2 # bandit
 bandit==1.7.5
 importlib-metadata<6.7 # for flake8
 typing_extensions==4.6.3
