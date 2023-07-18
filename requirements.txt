@@ -53,7 +53,7 @@ django-lti-provider==1.0.0
 entrypoints==0.4
 
 stevedore==5.1.0
-pyyaml==6.0
+pyyaml==6.0.1
 
 pbr>=0.11
 rich==13.4.2 # bandit
