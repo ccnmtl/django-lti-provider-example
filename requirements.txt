@@ -21,7 +21,7 @@ sure==2.0.1
 ipdb==0.13.13
 coverage==7.3.1
 pyasn1==0.5.0
-cffi==1.15.1 # cryptography
+cffi==1.16.0 # cryptography
 cryptography==41.0.4  # for PyOpenSSL
 logilab-common==1.10.0
 logilab-astng==0.24.3
