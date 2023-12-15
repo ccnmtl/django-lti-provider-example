@@ -19,7 +19,7 @@ lxml==4.9.3
 fuzzywuzzy==0.18.0
 sure==2.0.1
 ipdb==0.13.13
-coverage==7.3.2
+coverage==7.3.3
 pyasn1==0.5.1
 cffi==1.16.0 # cryptography
 cryptography==41.0.7  # for PyOpenSSL
