@@ -52,7 +52,7 @@ pylti==0.7.0
 django-lti-provider==1.0.0
 entrypoints==0.4
 
-stevedore==5.1.0
+stevedore==5.2.0
 pyyaml==6.0.1
 
 pbr>=0.11
