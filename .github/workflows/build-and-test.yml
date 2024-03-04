@@ -2,7 +2,7 @@ name: build-and-test
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
           python-version: ["3.8", "3.11"]
@@ -20,4 +20,4 @@ jobs:
           python -m pip install "Django~=${{ matrix.django-version }}"
 
       - name: Build and Test
-        run: make
+        run: make test
