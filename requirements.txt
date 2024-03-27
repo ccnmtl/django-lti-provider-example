@@ -20,7 +20,7 @@ fuzzywuzzy==0.18.0
 sure==2.0.1
 ipdb==0.13.13
 coverage==7.4.4
-pyasn1==0.5.1
+pyasn1==0.6.0
 cffi==1.16.0 # cryptography
 cryptography==42.0.5  # for PyOpenSSL
 logilab-common==2.0.0
