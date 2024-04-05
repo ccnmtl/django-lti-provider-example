@@ -53,7 +53,50 @@ Example Django application using the [django-lti-provider](https://github.com/cc
 
 ## LMS INSTALLATION
 
-Canvas
+Canvas installation happens in two steps. First, as a Canvas
+admin-level user, you must install the LTI tool's Developer Key. Then,
+as a Course admin, you install the LTI App within the course.
+
+### Developer Key installation
+
+In Canvas, go to Settings -> Developer Keys. Click "+ Developer Key",
+and choose LTI Key.
+
+Fill out the following fields:
+
+* Key Name: django-lti-provider-example
+* Owner Email: your email
+* Method: Manual Entry
+* Title: (tool title)
+* Description: (short description)
+* Redirect URIs: `https://<your hostname>/lti/launch/`
+* Target Link URI `https://<your hostname>/lti/launch/`
+* OpenID Connect Initiation Url: `https://<your hostname>/lti/login/`
+* JWK Method: Public JWK
+* Public JWK: (JSON contents of `/lti/jwks/` route)
+* LTI Advantage Services: ?
+* Placements: ?
+
+Select LtiDeepLinkingRequest where possible, as this allows for deeper
+integration.
+
+### LTI App installation
+
+In Canvas's Course page, click on Settings, then the Apps tab. Click "+ App"
+to add a new app, and use the following selections:
+
+* Configuration Type: By URL
+* Name: (app name)
+* Consumer Key: (key from your PYLTI_CONFIG obj in djangoltiprovider/local_settings.py)
+* Consumer Secret: (secret from PYLTI_CONFIG in your local_settings.py)
+* Config URL: `https://<your hostname>/lti/launch/` (for LTI 1.1, this
+  was `/lti/config.xml`)
+
+### Third-party references
+
+More info is here, which may be helpful:
+
 * https://community.canvaslms.com/docs/DOC-13117-415274482
   * Note: the URL to enter in these steps will be `https://<app hostname>/lti/config.xml`
-* LTI 1.3 Canvas configuration docs: https://github.com/dmitry-viskov/pylti1.3/wiki/Configure-Canvas-as-LTI-1.3-Platform
+* LTI 1.3 Canvas configuration docs:
+  https://github.com/dmitry-viskov/pylti1.3/wiki/Configure-Canvas-as-LTI-1.3-Platform
