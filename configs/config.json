@@ -31,8 +31,6 @@
         "private_key_file": "private.key",
         "public_key_file": "public.key",
         "deployment_ids": [
-            "2:4dde05e8ca1973bcca9bffc13e1548820eee93a3",
-            "22708:d9b22ed2c560ba981f77e3f9b47853130e830f34",
             "22725:7db438071375c02373713c12c73869ff2f470b68"
         ]
     }],
@@ -46,8 +44,7 @@
         "private_key_file": "private.key",
         "public_key_file": "public.key",
         "deployment_ids": [
-            "2:4dde05e8ca1973bcca9bffc13e1548820eee93a3",
-            "22708:d9b22ed2c560ba981f77e3f9b47853130e830f34"
+            "22725:7db438071375c02373713c12c73869ff2f470b68"
         ]
     }],
     "https://canvas.test.instructure.com": [{
@@ -60,8 +57,7 @@
         "private_key_file": "private.key",
         "public_key_file": "public.key",
         "deployment_ids": [
-            "2:4dde05e8ca1973bcca9bffc13e1548820eee93a3",
-            "22708:d9b22ed2c560ba981f77e3f9b47853130e830f34"
+            "22725:7db438071375c02373713c12c73869ff2f470b68"
         ]
     }],
     "ltiadvantagevalidator.imsglobal.org": [{
