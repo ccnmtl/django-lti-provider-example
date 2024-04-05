@@ -1,6 +1,6 @@
 {
-    "http://imsglobal.org": [{
-        "default": true,
+    "https://imsglobal.org": [{
+        "default": false,
         "client_id": "pytest12345",
         "auth_login_url": "https://lti-ri.imsglobal.org/platforms/370/authorizations/new",
         "auth_token_url": "https://lti-ri.imsglobal.org/platforms/370/access_tokens",
@@ -21,12 +21,27 @@
         "public_key_file": "public.key",
         "deployment_ids": ["py1234"]
     }],
-    "https://canvas.instructure.com": [{
+    "https://tc.test.instructure.com": [{
         "default": true,
         "client_id": "43060000000000260",
-        "auth_login_url": "http://canvas.test/api/lti/authorize_redirect",
-        "auth_token_url": "http://canvas.test/login/oauth2/token",
-        "key_set_url": "http://canvas.test/api/lti/security/jwks",
+        "auth_login_url": "https://tc.test.instructure.com/api/lti/authorize_redirect",
+        "auth_token_url": "https://tc.test.instructure.com/login/oauth2/token",
+        "key_set_url": "https://tc.test.instructure.com/api/lti/security/jwks",
+        "key_set": null,
+        "private_key_file": "private.key",
+        "public_key_file": "public.key",
+        "deployment_ids": [
+            "2:4dde05e8ca1973bcca9bffc13e1548820eee93a3",
+            "22708:d9b22ed2c560ba981f77e3f9b47853130e830f34",
+            "22725:7db438071375c02373713c12c73869ff2f470b68"
+        ]
+    }],
+    "https://canvas.instructure.com": [{
+        "default": false,
+        "client_id": "43060000000000260",
+        "auth_login_url": "https://canvas.instructure.com/api/lti/authorize_redirect/",
+        "auth_token_url": "https://canvas.instructure.com/login/oauth2/token",
+        "key_set_url": "https://canvas.instructure.com/api/lti/security/jwks",
         "key_set": null,
         "private_key_file": "private.key",
         "public_key_file": "public.key",
@@ -36,11 +51,11 @@
         ]
     }],
     "https://canvas.test.instructure.com": [{
-        "default": true,
+        "default": false,
         "client_id": "43060000000000260",
-        "auth_login_url": "http://canvas.test/api/lti/authorize_redirect",
-        "auth_token_url": "http://canvas.test/login/oauth2/token",
-        "key_set_url": "http://canvas.test/api/lti/security/jwks",
+        "auth_login_url": "https://canvas.test.instructure.com/api/lti/authorize_redirect/",
+        "auth_token_url": "https://canvas.test.instructure.com/login/oauth2/token",
+        "key_set_url": "https://canvas.test.instructure.com/api/lti/security/jwks",
         "key_set": null,
         "private_key_file": "private.key",
         "public_key_file": "public.key",
@@ -61,7 +76,7 @@
         "deployment_ids": ["testdeploy"]
     }],
     "https://blackboard.com": [{
-        "default": true,
+        "default": false,
         "client_id": "client-id",
         "auth_login_url": "https://developer.blackboard.com/api/v1/gateway/oidcauth",
         "auth_token_url": "https://developer.blackboard.com/api/v1/gateway/oauth2/jwttoken",
@@ -72,7 +87,7 @@
         "deployment_ids": ["deployment-id"]
     }],
     "https://partners.brightspace.com": [{
-        "default": true,
+        "default": false,
         "client_id": "client-id",
         "auth_login_url": "https://partners.brightspace.com/d2l/lti/authenticate",
         "auth_token_url": "https://auth.brightspace.com/core/connect/token",
@@ -83,13 +98,13 @@
         "public_key_file": "public2.key",
         "deployment_ids": ["deployment-id"]
     }],
-    "http://moodle.test": [{
-        "default": true,
+    "https://moodle.test": [{
+        "default": false,
         "client_id": "LyRl2z2Ai4Vxgok",
-        "auth_login_url": "http://moodle.test/mod/lti/auth.php",
-        "auth_token_url": "http://moodle.test/mod/lti/token.php",
+        "auth_login_url": "https://moodle.test/mod/lti/auth.php",
+        "auth_token_url": "https://moodle.test/mod/lti/token.php",
         "auth_audience": null,
-        "key_set_url": "http://moodle.test/mod/lti/certs.php",
+        "key_set_url": "https://moodle.test/mod/lti/certs.php",
         "key_set": null,
         "private_key_file": "private.key",
         "public_key_file": "public.key",
