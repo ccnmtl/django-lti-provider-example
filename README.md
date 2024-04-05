@@ -87,7 +87,7 @@ to add a new app, and use the following selections:
 
 * Configuration Type: By URL
 * Name: (app name)
-* Consumer Key: (key from your PYLTI_CONFIG obj in djangoltiprovider/local_settings.py)
+* Consumer Key: (key from your PYLTI_CONFIG obj in `djangoltiproviderexample/local_settings.py`)
 * Consumer Secret: (secret from PYLTI_CONFIG in your local_settings.py)
 * Config URL: `https://<your hostname>/lti/launch/` (for LTI 1.1, this
   was `/lti/config.xml`)
