@@ -82,15 +82,16 @@ integration.
 
 ### LTI App installation
 
-In Canvas's Course page, click on Settings, then the Apps tab. Click "+ App"
-to add a new app, and use the following selections:
+In Canvas, go to Settings -> Apps. Click "+ App" to add a new App.
 
-* Configuration Type: By URL
-* Name: (app name)
-* Consumer Key: (key from your PYLTI_CONFIG obj in `djangoltiproviderexample/local_settings.py`)
-* Consumer Secret: (secret from PYLTI_CONFIG in your local_settings.py)
-* Config URL: `https://<your hostname>/lti/launch/` (for LTI 1.1, this
-  was `/lti/config.xml`)
+* Configuration Type: By Client ID
+* Client ID: (Client ID from the Developer Keys Details column). This
+  will look something like: 43060000000000260
+* Click Install to install the app. Now you can click the gear icon to
+  see this app's Deployment Id, which will be added to the config.json.
+
+You should now see your app present in the left-hand menu in Canvas's course
+page, if the right placement setting was selected when it was installed.
 
 ### Third-party references
 
