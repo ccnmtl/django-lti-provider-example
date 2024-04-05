@@ -82,8 +82,8 @@ integration.
 
 ### LTI App installation
 
-In Canvas, go to Settings -> Apps. Click "View App Configurations. Click "+ App"
-to add a new App.
+In Canvas, go to Settings -> Apps. Click "View App Configurations". Click
+"+ App" to add a new App.
 
 * Configuration Type: By Client ID
 * Client ID: (Client ID from the Developer Keys Details column). This
