@@ -124,6 +124,8 @@ STATICMEDIA_MOUNTS = [
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
 SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
 SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_SAMESITE = None
+SESSION_COOKIE_SECURE = True
 
 STATIC_ROOT = "/tmp/" + project + "/static"  # nosec
 STATICFILES_DIRS = ["media/"]
