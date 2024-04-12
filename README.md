@@ -17,9 +17,6 @@ Example Django application using the [django-lti-provider](https://github.com/cc
      * Create a database user/password (if needed)
      * Create the database `createdb django-lti-provider-example`
 
-   For MySQL:
-    @todo
-
 3. Customize settings
 
     * Create a local_settings.py file in the `djangoltiproviderexample` subdirectory OR
