@@ -48,7 +48,7 @@ Example Django application using the [django-lti-provider](https://github.com/cc
 
     `make runserver`
 
-## LMS INSTALLATION
+## LMS Installation
 
 Canvas installation happens in two steps. First, as a Canvas
 admin-level user, you must install the LTI tool's Developer Key. Then,
