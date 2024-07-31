@@ -36,7 +36,7 @@ python-dateutil==2.9.0.post0
 django-indexer==0.3.0
 django-templatetag-sugar==1.0
 django-paging==0.2.5
-django-annoying==0.10.6
+django-annoying==0.10.7
 django-appconf==1.0.6
 django-bootstrap3==24.2
 django-jenkins==0.110.0
