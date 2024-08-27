@@ -15,15 +15,13 @@ Example Django application using the [django-lti-provider](https://github.com/cc
 
    For Postgres:
      * Create a database user/password (if needed)
-     * Create the database `createdb django-lti-provider-example`
+     * Create the database `createdb djangoltiproviderexample`
 
 3. Customize settings
 
     * Create a local_settings.py file in the `djangoltiproviderexample` subdirectory OR
     * Copy `djangoltiproviderexample/local_settings.py.example` to `djangoltiproviderexample/local_settings.py`
     * Then, override the variables from `settings_shared.py` that you need to customize for your local installation.
-      * Customize your `DATABASES` dictionary
-        * e.g. set NAME, HOST, USER, and PASSWORD. remove PORT (unless it's non-standard)
       * Specify ALLOWED_HOSTS = [ 'localhost', '.your.blackboard.or.moodle.domain', '.your.workstation.domain', ]
     * The ``PYLTI_CONFIG`` variable in your ``local_settings.py`` configures the application consumers and secrets. Generate two long random numbers for these values.
 
