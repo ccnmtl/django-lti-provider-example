@@ -141,7 +141,7 @@ PROJECT_APPS = [
 ]
 
 INSTALLED_APPS += [  # noqa
-    'bootstrap3',
+    'django_bootstrap5',
     'django_extensions',
     'djangoltiproviderexample.main',
 ]
