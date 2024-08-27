@@ -1,33 +1,6 @@
-# flake8: noqa
-import os
-import sys
-
 DEBUG = True
 
-PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
-STATICFILES_DIRS = ('{}media/'.format(PROJECT_PATH),)
-COMPRESS_ROOT = '{}media/'.format(PROJECT_PATH)
-STATIC_ROOT = PROJECT_PATH
-
-if 'test' not in sys.argv and 'jenkins' not in sys.argv and 'check' not in sys.argv:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'djangoltiproviderexample',
-            'HOST': 'localhost',
-            'PORT': '<port>',
-            'USER': '<username>',
-            'PASSWORD': '<password>',
-        }
-    }
-
-    # MySQL Example
-    #DATABASES = {
-    #    'default': {
-    #        'ENGINE': 'django.db.backends.mysql',
-    #        'NAME': 'djangoltiproviderexample',
-    #        'HOST': 'localhost',
-    #        'USER': '<username>',
-    #        'PASSWORD': '<password>',
-    #    }
-    #}
+ALLOWED_HOSTS = [
+    'localhost',
+    # 'yourdomain.columbia.edu',
+]
