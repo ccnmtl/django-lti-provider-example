@@ -1,4 +1,4 @@
-{% load django_bootstrap5 %}
+{% load django_bootstrap5 static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
 
     {% bootstrap_css %}
 
-    <link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
     {% block css %}{% endblock %}
 </head>
 <body class="{% block bodyclass %}{% endblock %}" id="{% block bodyid %}{% endblock %}">
@@ -18,7 +18,7 @@
     <div class="container" id="outer-container">
 
     <div style="margin-top: 20px; margin-bottom: 20px; border-bottom: 1px solid gray">
-        <img style="width: 300px" src="{{STATIC_URL}}img/logo-ctl-black.png" />
+        <img style="width: 300px" src="{% static 'img/logo-ctl-black.png' %}" />
     </div>
 
     {% block content %}
