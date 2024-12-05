@@ -28,7 +28,7 @@ logilab-common==2.0.0
 logilab-astng==0.24.3
 astroid==3.2.4
 pylint==3.2.7
-six==1.16.0
+six==1.17.0
 sqlparse==0.5.2
 ldap3==2.9.1
 python-dateutil==2.9.0.post0
