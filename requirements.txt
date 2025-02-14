@@ -53,7 +53,7 @@ pylti==0.7.0
 certifi==2025.1.31  # requests
 idna==3.10  # requests
 charset_normalizer==3.4.1  # requests
-urllib3==2.2.3  # requests
+urllib3==2.3.0  # requests
 requests==2.32.3  # pylti1p3
 pyjwt==2.9.0  # pylti1p3
 jwcrypto==1.5.6  # pylti1p3
