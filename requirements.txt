@@ -24,7 +24,7 @@ coverage==7.6.12
 pyasn1==0.6.1
 cffi==1.17.1 # cryptography
 cryptography==44.0.2  # for PyOpenSSL
-logilab-common==2.0.0
+logilab-common==2.1.0
 logilab-astng==0.24.3
 astroid==3.3.8
 pylint==3.3.4
