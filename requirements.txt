@@ -67,7 +67,7 @@ pyyaml==6.0.2
 pbr>=0.11
 rich==14.0.0 # bandit
 bandit==1.8.3
-importlib-metadata<8.7 # for flake8
+importlib-metadata<8.8 # for flake8
 typing_extensions==4.13.2
 zipp==3.21.0
 
