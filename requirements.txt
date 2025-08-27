@@ -61,7 +61,7 @@ pylti1p3==2.0.0
 django-lti-provider @ git+https://github.com/ccnmtl/django-lti-provider@main
 entrypoints==0.4
 
-stevedore==5.4.1
+stevedore==5.5.0
 pyyaml==6.0.2
 
 pbr>=0.11
