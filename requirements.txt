@@ -50,7 +50,7 @@ oauth2==1.9.0.post1
 oauthlib==3.3.1
 pylti==0.7.0
 
-certifi==2025.8.3  # requests
+certifi==2025.10.5  # requests
 idna==3.10  # requests
 charset_normalizer==3.4.3  # requests
 urllib3==2.5.0  # requests
