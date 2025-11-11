@@ -14,4 +14,3 @@ local_settings.py
 media/CACHE
 reports
 node_modules
-.coverage
