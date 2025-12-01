@@ -26,7 +26,7 @@ cryptography==46.0.3  # for PyOpenSSL
 logilab-common==2.1.0
 logilab-astng==0.24.3
 astroid==4.0.2
-pylint==4.0.3
+pylint==4.0.4
 six==1.17.0
 sqlparse==0.5.4
 ldap3==2.9.1
