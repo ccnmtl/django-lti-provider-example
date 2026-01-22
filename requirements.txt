@@ -3,7 +3,7 @@ backports.zoneinfo;python_version<"3.9"
 pytz==2025.2
 httplib2==0.31.1
 feedparser==6.0.12
-Markdown==3.10
+Markdown==3.10.1
 psycopg2==2.9.11
 versiontools==1.9.1
 statsd==4.0.1
