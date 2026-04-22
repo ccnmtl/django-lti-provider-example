@@ -63,7 +63,7 @@ entrypoints==0.4
 stevedore==5.7.0
 pyyaml==6.0.3
 
-pbr>=0.11
+pbr>=7.0.3
 rich==15.0.0 # bandit
 bandit==1.9.4
 importlib-metadata<9.1 # for flake8
