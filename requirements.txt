@@ -55,7 +55,7 @@ charset_normalizer==3.4.7  # requests
 urllib3==2.7.0  # requests
 requests==2.34.2  # pylti1p3
 pyjwt==2.13.0  # pylti1p3
-jwcrypto==1.5.7  # pylti1p3
+jwcrypto==1.5.8  # pylti1p3
 pylti1p3==2.0.0
 django-lti-provider @ git+https://github.com/ccnmtl/django-lti-provider@main
 entrypoints==0.4
