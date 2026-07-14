@@ -71,4 +71,4 @@ typing_extensions==4.16.0
 zipp==4.1.0
 
 pyparsing==3.3.2
-asgiref==3.11.1
+asgiref==3.12.1
