@@ -46,7 +46,7 @@ nameparser==2.3.0
 httplib2==0.32.0
 oauth==1.0.1
 oauth2==1.9.0.post1
-oauthlib==3.3.1
+oauthlib==4.0.0
 pylti==0.7.0
 
 certifi==2026.7.22  # requests
