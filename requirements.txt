@@ -1,6 +1,6 @@
 Django>=6.1.2,<7
 backports.zoneinfo;python_version<"3.9"
-pytz==2026.5
+pytz==2026.6
 httplib2==0.32.1
 feedparser==6.0.14
 Markdown==3.11.2
