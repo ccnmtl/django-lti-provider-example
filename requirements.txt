@@ -61,7 +61,7 @@ django-lti-provider @ git+https://github.com/ccnmtl/django-lti-provider@main
 entrypoints==0.4.2
 
 stevedore==5.10.0
-pyyaml==6.0.3
+pyyaml==6.0.4
 
 pbr>=7.1.3
 rich==15.0.0 # bandit
